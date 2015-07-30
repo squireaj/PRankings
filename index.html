@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html ng-app="app">
+<html ng-app="squiresApp">
 
   <head>
-    <script data-require="angular.js@1.4.3" data-semver="1.4.3" src="https://code.angularjs.org/1.4.3/angular.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+
   </head>
 
-  <body ng-controller="mainCtrl">
+  <body ng-controller="MainController">
     <h1>Power Rankings!</h1>
-    <team-card></team-card>
   </body>
-
+    <!-- Angular Libraries --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-resource.js"></script>
+        
+    <script src="app.js"></script>
+    <script src="mainCtrl.js"></script>
+    <script src="app.js"></script>
+    <script src="teamCardDirective.js"></script>
 </html>
