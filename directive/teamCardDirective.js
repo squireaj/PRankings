@@ -14,10 +14,9 @@ app.directive('teamCard', function(){
           team.details = false;
         });
         team.details = !team.details
-        console.log($scope.teams);
       }
     },
-    templateUrl: "teamCard.html" ,
+    templateUrl: "../directive/teamCard.html" ,
     restrict: "AE"
   };
 })
