@@ -7,8 +7,11 @@ app.directive('teamCard', function(){
     },
     controller: function($scope){
       $scope.toggle = function(team) {
+        $scope.teams.forEach(function(team){
+          team.details = false;
+        });
         team.details = !team.details
-        console.log(teams);
+        console.log($scope.teams);
       }
     },
     templateUrl: "teamCard.html" ,
@@ -16,8 +19,3 @@ app.directive('teamCard', function(){
   };
 })
 
-// yourArray.forEach( function (arrayItem)
-// {
-//     var x = arrayItem.prop1 + 2;
-//     alert(x);
-// });
