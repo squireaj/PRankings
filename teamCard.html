@@ -1,1 +1,14 @@
-<h1>teamCard directive</h1>
+<div ng-repeat="team in teams">
+  <h3 ng-click="toggle(team)">Rank: {{team.rank}}</h3>
+    <div ng-show="team.details">
+      Team: {{team.name}}
+      <br/>
+      <br/>
+      <img src="{{team.logo}}" style="max-width: 80px;">
+      <br/>
+      <br/>
+      Best Player: {{team.bestPlayer}}
+      <br/>
+      <br/>
+    </div>
+</div>

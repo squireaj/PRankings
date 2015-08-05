@@ -1,2 +1,2 @@
-var app = angular.module('squiresApp', []);
+var app = angular.module('prankings', []);
 
