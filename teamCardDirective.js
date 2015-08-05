@@ -1,6 +1,6 @@
 var app = angular.module('prankings');
 
-angular.module('app').directive('teamCard', function(){
+app.directive('teamCard', function(){
   return{
     scope: {
       teams: '=',
@@ -8,9 +8,16 @@ angular.module('app').directive('teamCard', function(){
     controller: function($scope){
       $scope.toggle = function(team) {
         team.details = !team.details
+        console.log(teams);
       }
     },
     templateUrl: "teamCard.html" ,
     restrict: "AE"
   };
 })
+
+// yourArray.forEach( function (arrayItem)
+// {
+//     var x = arrayItem.prop1 + 2;
+//     alert(x);
+// });

@@ -2272,7 +2272,7 @@ td, th {
       border-right: 1px solid #d0d0d0; } }
 
 .collection {
-  margin: 0.5rem 0 1rem 0;
+  margin: 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   overflow: hidden;
@@ -2282,7 +2282,17 @@ td, th {
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0;
-    border-bottom: 1px solid #e0e0e0; }
+    border-bottom: 0px solid #e0e0e0; }
+      .collection .collection-item2 {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 0px solid #e0e0e0; }
+  .collection .collection-item:hover {
+    cursor: pointer;
+    background-color: #BBDEFB;
+  }
     .collection .collection-item.avatar {
       min-height: 84px;
       padding-left: 72px;
@@ -5022,8 +5032,8 @@ span.badge {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
-  width: 90%; }
+  max-width: 400px;
+  width: 30%; }
 
 @media only screen and (min-width : 601px) {
   .container {
@@ -5415,12 +5425,14 @@ h1 {
 h2 {
   font-size: 3.56rem;
   line-height: 110%;
-  margin: 1.78rem 0 1.424rem 0; }
+  margin-top: 1.78rem;
+  margin-bottom: 0; }
 
 h3 {
   font-size: 2.92rem;
   line-height: 110%;
-  margin: 1.46rem 0 1.168rem 0; }
+  margin: 1.46rem 0 1.168rem 0;
+  border: 1px solid black; }
 
 h4 {
   font-size: 2.28rem;
@@ -5430,7 +5442,7 @@ h4 {
 h5 {
   font-size: 1.64rem;
   line-height: 110%;
-  margin: 0.82rem 0 0.656rem 0; }
+  margin: 0.52rem 0 0.656rem 0; }
 
 h6 {
   font-size: 1rem;
@@ -8137,3 +8149,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
+
+h5:hover {
+  cursor: pointer;
+  background-color: #BBDEFB;
+}

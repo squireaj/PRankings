@@ -4,9 +4,17 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body ng-controller="mainCtrl">
-    <h1>Power Rankings</h1>
-    <team-card teams="teams"></team-card>
+    <div class="container">
+    </br>
+    </br>
+      <h2 class="center-align">Power Rankings</h2>
+      <h5 class="center-align">2015 Preseason power rankings</h5>
+      <img style="max-width: 400px;" src="logos.gif">
+    </br>
+    </br>
+      <team-card teams="teams" class="center-align"></team-card>
 
+    </div>
     <script src="angular.js"></script>
     <script src="app.js"></script>
     <script src="mainCtrl.js"></script>

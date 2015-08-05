@@ -1,14 +1,15 @@
-<div ng-repeat="team in teams">
-  <h3 ng-click="toggle(team)">Rank: {{team.rank}}</h3>
-    <div ng-show="team.details">
-      Team: {{team.name}}
-      <br/>
-      <br/>
-      <img src="{{team.logo}}" style="max-width: 80px;">
-      <br/>
-      <br/>
-      Best Player: {{team.bestPlayer}}
-      <br/>
-      <br/>
-    </div>
+  <div ng-repeat="team in teams">
+    <ul class="collection z-depth-1">
+      <li class="collection-item" ng-click="toggle(team, teams)"><h5>Rank: {{team.rank}}</h5></li>
+    
+      <li class="collection-item2" ng-show="team.details">
+        <div>
+          <img src="{{team.logo}}" style="max-width: 150px; margin-top: 20px;">
+          <h6>Team: {{team.name}}</h6>
+          <h6>Best Player: {{team.bestPlayer}}</6>
+          </br>
+          </br>
+        </div>
+      </li>
+    </ul>
 </div>
