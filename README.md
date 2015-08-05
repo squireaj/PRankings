@@ -20,6 +20,6 @@
 
 >Building a directive is much like building a service in Angular. It is a modular piece of code that you can use anywhere in your app. 
 
-- ##### First lets build the shell if the directive.  
+##### First lets build the shell if the directive.  
 
 
