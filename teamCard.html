@@ -1,6 +1,6 @@
   <div ng-repeat="team in teams">
     <ul class="collection z-depth-1">
-      <li class="collection-item" ng-click="toggle(team)"><h5>Rank: {{team.rank}}</h5></li>
+      <li class="collection-item" ng-click="team.details ? close(team) : toggle(team)"><h5>Rank: {{team.rank}}</h5></li>
     
       <li class="collection-item2" ng-show="team.details">
         <div>

@@ -6,6 +6,9 @@ app.directive('teamCard', function(){
       teams: '=',
     },
     controller: function($scope){
+      $scope.close = function(team){
+        team.details = false;
+      }
       $scope.toggle = function(team) {
         $scope.teams.forEach(function(team){
           team.details = false;
