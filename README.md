@@ -16,7 +16,7 @@
 
 ### What You Will Build 
 
-![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/logos/sample.gif)
+![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/logos/video.gif)
 
 ### Getting Started
 
