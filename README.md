@@ -36,9 +36,9 @@
 
 - Your DDO is comprised of directive properties. 
 - The directive properties that we will be using in this app are as follows (We will be going over them later on)
--- Scope
--- Controller
--- Template URL
--- Restrict
+  - Scope
+  - Controller
+  - Template URL
+  - Restrict
 
 
