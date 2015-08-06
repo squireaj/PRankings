@@ -22,4 +22,16 @@
 
 ##### First lets build the shell if the directive.  
 
+![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Directive1.gif)
+
+- You define an agular directive just like you would an Angular service or controller. See its not so scary... 
+
+- Now we will build the directive definition object. 
+
+### Directive Definition Object. 
+
+>A DDO or directive definition object is the hub of your directive. This is where everything that makes your directive what it is come together. 
+
+
+
 

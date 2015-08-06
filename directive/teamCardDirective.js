@@ -1,11 +1,8 @@
 var app = angular.module('prankings');
 
 app.directive('teamCard', function(){
-  return{
-    scope: {
-      teams: '=',
-    },
-    controller: function($scope){
+
+var controller = function($scope){
       $scope.close = function(team){
         team.details = false;
       }
@@ -15,7 +12,14 @@ app.directive('teamCard', function(){
         });
         team.details = !team.details
       }
+
+}
+
+  return{
+    scope: {
+      teams: '=',
     },
+    controller: controller,
     templateUrl: "../directive/teamCard.html" ,
     restrict: "AE"
   };
