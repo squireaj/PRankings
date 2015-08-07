@@ -14,7 +14,10 @@
 
 ### What You Will Build 
 
-<div align= "center">![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/logos/video.gif)</div>
+<div align= "center">
+	<!-- ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/logos/video.gif) -->
+	<img src="https://raw.github.com/squireaj/PRankings/master/logos/video.gif">
+</div>
 
 ### Getting Started
 
