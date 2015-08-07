@@ -42,6 +42,7 @@ Custom Angular Directives Tutorial
 
 >A DDO or directive definition object is the hub of your directive. This is where everything that makes your directive what it is comes together. The DDO is returned and Angular’s $compile function then knows what qualities and functions to pass on to the DOM.  
 ##### Directive Definition Object.  
+
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/DDO.gif)
 
 - Your DDO is comprised of directive properties. 
