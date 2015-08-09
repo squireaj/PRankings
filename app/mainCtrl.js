@@ -1,14 +1,14 @@
 var app = angular.module('prankings');
 
 app.controller('mainCtrl', function($scope){
-  $scope.teams = data;
+  $scope.teams = teamData;
 
 });
 
 
 
 
-var data = [
+var teamData = [
     {
     rank: "1st",
     details: false, 

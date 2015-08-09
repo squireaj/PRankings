@@ -3,21 +3,21 @@ var app = angular.module('prankings');
 app.directive('teamCard', function(){
 
 var controller = function($scope){
-      $scope.close = function(team){
-        team.details = false;
+      $scope.close = function(object){
+        object.details = false;
       }
-      $scope.toggle = function(team) {
-        $scope.teams.forEach(function(team){
-          team.details = false;
+      $scope.toggle = function(object) {
+        $scope.scopedata.forEach(function(object){
+          object.details = false;
         });
-        team.details = !team.details
+        object.details = !object.details
       }
 
 }
 
   return{
     scope: {
-      teams: '=',
+      scopedata: '=',
     },
     controller: controller,
     templateUrl: "../directive/teamCard.html" ,

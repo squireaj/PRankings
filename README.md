@@ -6,7 +6,6 @@ Custom Angular Directives Tutorial
 ### What You Will Build 
 
 <div align= "center">
-	<!-- ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/logos/video.gif) -->
 	<img src="https://raw.github.com/squireaj/PRankings/master/logos/video.gif">
 </div>
 
@@ -42,7 +41,6 @@ Custom Angular Directives Tutorial
 
 >A DDO or directive definition object is the hub of your directive. This is where everything that makes your directive what it is comes together. The DDO is returned and Angular’s $compile function then knows what qualities and functions to pass on to the DOM.  
 ##### Directive Definition Object.  
-
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/DDO.gif)
 
 - Your DDO is comprised of directive properties. 
@@ -63,6 +61,9 @@ Custom Angular Directives Tutorial
 
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/localScopeProperties.gif)
 
+ -  = -- Creates two way binding between the directive and its parent scope.
+ - & -- Is used to pass functions to your custom directive.
+ - @ -- Gives you access to the parent scopes objects. But if you make a change inside the directive that will not be reflected outside of the directive’s scope.
 
 
 
