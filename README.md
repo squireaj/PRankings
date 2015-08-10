@@ -61,12 +61,17 @@ Custom Angular Directives Tutorial
 ##### Local Scope Properties
 ![LocalScopeProperties Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/localScopeProperties.gif)
 
--  ## " = " 
-      - Creates two way binding between the directive and its parent scope. If you change a varible that is assigned the scope property of '=' inside the directive it will be reflected on the parent controller's scope. 
-- ## " & "  
+## " = " 
+  
+  - Creates two way binding between the directive and its parent scope. If you change a varible that is assigned the scope property of '=' inside the directive it will be reflected on the parent controller's scope. 
+
+## " & "  
+
   - & -- Is used to pass functions to your custom directive. You are able to call the parent controller's function inside the directive when it is assigned the '&' scope property. 
- - ## " @ " 
-    - @ -- Gives you access to the parent scopes objects. But if you make a change inside the directive that will not be reflected outside of the directive’s scope.
+
+## " @ " 
+
+  - @ -- Gives you access to the parent scopes objects. But if you make a change inside the directive that will not be reflected outside of the directive’s scope.
  
  ##### Local Scope Property Hookup
 ![ScopeView Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/ScopeView.gif)
