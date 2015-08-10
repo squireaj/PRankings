@@ -21,7 +21,7 @@ Custom Angular Directives Tutorial
   - Template & Template URL
   - Controllers
   - Restrict
-- Conclution 
+- Conclusion
 
 ### Getting Started
 
@@ -101,6 +101,7 @@ Custom Angular Directives Tutorial
 ##### Restrict
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Restrict.gif)
 
+### Conclusion
 
 
 
