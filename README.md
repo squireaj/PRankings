@@ -77,6 +77,7 @@ Custom Angular Directives Tutorial
 ![Template Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Template.gif)
 
  - If you are using an isolate scope then you need to remember that any variables, objects or functions you use must come from either the scope directive property or from the directives controller.
+ 
 ##### Controller:
 
 - The controller for a custom directive is just like any other Angular controller except it is only responsible for the directive and its template. 
