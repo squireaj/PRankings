@@ -1,6 +1,6 @@
 var app = angular.module('prankings');
 
-app.directive('teamCard', function(){
+app.directive('toggleList', function(){
 
 var controller = function($scope){
       $scope.close = function(object){
@@ -22,7 +22,7 @@ var controller = function($scope){
       scopefunction: '&'
     },
     controller: controller,
-    templateUrl: "../directive/teamCard.html" ,
+    templateUrl: "../directive/toggleList.html" ,
     restrict: "AE"
   };
 })
