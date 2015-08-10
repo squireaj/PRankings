@@ -2,7 +2,10 @@ var app = angular.module('prankings');
 
 app.controller('mainCtrl', function($scope){
   $scope.teams = teamData;
-
+  $scope.name = "Squire";
+  $scope.hey = function(){
+    console.log("Hey! How are you?")
+  }; 
 });
 
 

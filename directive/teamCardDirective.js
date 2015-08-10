@@ -18,6 +18,8 @@ var controller = function($scope){
   return{
     scope: {
       scopedata: '=',
+      scopestring: '@',
+      scopefunction: '&'
     },
     controller: controller,
     templateUrl: "../directive/teamCard.html" ,
