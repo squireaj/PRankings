@@ -100,13 +100,16 @@ Custom Angular Directives Tutorial
  - This is where you would define any varibles that you would need internally for your directive. 
  
 ##### Restrict: 
- - Restrict is what it sounds like it restricts your directive to being used in the way you design it. The default and most common was to use directives are either as attributes or elements.  
-
+ - Restrict is what it sounds like it restricts your directive to being used in the way you design it. The default and most common was to use directives are either as attributes or elements.  You can also create directives that are comments or classes but they are almost never used. 
 
 ##### Restrict
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Restrict.gif)
 
 ### Conclusion
+
+ - Directives can range from simple to very complex but their general purpose is the same. Create something once so you can use it over and over again. 
+ - Directives are made of the same basic parts, a directive definition objectct or DDO, Controller, and Template. 
+ - You now have the basic building blocks to start making your own directives. 
 
 
 
