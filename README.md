@@ -1,7 +1,7 @@
 # Power Rankings 
 Custom Angular Directives Tutorial
 
->In this tutorial I will be going over the basics of building a custom Angular directive. By the end of this tutorial if you follow along you will have built your very own directive. The example doesn't cover every concept but it is very useful in a variety of situations.
+>In this tutorial I will be going over the basics of building a custom Angular directive. By the end of this tutorial you will be able to build your very own directive. The example doesn't cover every concept but it is very useful in a variety of situations.
 
 ### What You Will Build 
 
