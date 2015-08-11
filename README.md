@@ -70,7 +70,7 @@ Custom Angular Directives Tutorial
 
 ## " @ " 
 
-  - Gives you access to the parent scope properties (string). If you make a change inside the directive that change will not be reflected outside of the directive’s scope.
+  - Will parse whatever it is passed as a string. If you want access to a local scope property you will need to wrap it in curly braces.
  
  ##### Local Scope Property Hookup
 ![ScopeView Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/ScopeView.gif)
