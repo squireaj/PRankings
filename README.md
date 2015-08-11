@@ -1,7 +1,7 @@
 # Power Rankings 
 Custom Angular Directives Tutorial
 
->In this tutorial I will be going over the basics of building a custom Angular directive. By the end of this tutorial if you follow along you will have built your very own directive. The example doesn't cover every concept but it is very usefull in a veriety of situations.
+>In this tutorial I will be going over the basics of building a custom Angular directive. By the end of this tutorial if you follow along you will have built your very own directive. The example doesn't cover every concept but it is very useful in a variety of situations.
 
 ### What You Will Build 
 
@@ -31,7 +31,7 @@ Custom Angular Directives Tutorial
 
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Directive1.gif)
 
-- First you define your agular directive the same as an Angular service or controller.
+- First you define your Angular directive the same as an Angular service or controller.
 - Next we will build our directive definition object. 
 
 ### Directive Definition Object. 
@@ -63,7 +63,7 @@ Custom Angular Directives Tutorial
 
 ## " = " 
   
-  - Creates two way binding between the directive and its parent scope. If you change a varible that is assigned the scope property of '=' inside the directive it will be reflected on the parent controller's scope. 
+  - Creates two way binding between the directive and its parent scope. If you change a variable that is assigned the scope property of '=' inside the directive it will be reflected on the parent controller's scope. 
 
 ## " & "  
 
@@ -96,8 +96,8 @@ Custom Angular Directives Tutorial
 ##### Controller
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Controller.gif)
 
- - Your controller will have the rest of your directives functionality in it. The example has a cupple of functions that make the toggle work. 
- - This is where you would define any varibles that you would need internally for your directive. 
+ - Your controller will have the rest of your directives functionality in it. The example has a couple of functions that make the toggle work. 
+ - This is where you would define any variables that you would need internally for your directive. 
  
 ##### Restrict: 
  - Restrict is what it sounds like it restricts your directive to being used in the way you design it. The default and most common was to use directives are either as attributes or elements.  You can also create directives that are comments or classes but they are almost never used. 
@@ -108,7 +108,7 @@ Custom Angular Directives Tutorial
 ### Conclusion
 
  - Directives can range from simple to very complex but their general purpose is the same. Create something once so you can use it over and over again. 
- - Directives are made of the same basic parts, a directive definition objectct or DDO, Controller, and Template. 
+ - Directives are made of the same basic parts, a directive definition object or DDO, Controller, and Template. 
  - You now have the basic building blocks to start making your own directives. 
 
 
