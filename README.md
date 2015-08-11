@@ -25,14 +25,13 @@ Custom Angular Directives Tutorial
 
 ### Getting Started
 
->Building a directive is much like building a service in Angular. It is a modular piece of code that can be used anywhere in your app. If you’ve been using Angular for a while you will notice the syntax for the shell of a directive is familiar.
+>Building a directive is much like building a service in Angular. It is a piece of modular code that can be used anywhere in your app. If you’ve been using Angular for a while you will notice the syntax for the shell of a directive is familiar.
 
 ##### Directive Shell.  
 
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Directive1.gif)
 
-- First you define your Angular directive the same as an Angular service or controller.
-- Next we will build our directive definition object. 
+- First you define your Angular directive the same as an Angular service or controller. 
 
 ### Directive Definition Object. 
 
@@ -52,7 +51,7 @@ Custom Angular Directives Tutorial
 
 ### Directive Properties
 
->Directive properties are what make up your DDO. Most of them should look familiar to you, scope, controller and templateURL shouldn't be foreign concepts to you. For the most part they are exactly what they sound like. Scope is a little different so we will go over that first. 
+>Directive properties are what make up your DDO. Most of them should look familiar to you, scope, controller and templateURL shouldn't be foreign concepts. For the most part they are exactly what they sound like. Scope is a little different so we will go over that first. 
 
 ##### Scope:
 
@@ -67,11 +66,11 @@ Custom Angular Directives Tutorial
 
 ## " & "  
 
-  - & -- Is used to pass functions to your custom directive. You are able to call the parent controller's function inside the directive when it is assigned the '&' scope property. 
+  - Is used to pass functions to your custom directive. You are able to call the parent controller's function inside the directive when it is assigned the '&' scope property. 
 
 ## " @ " 
 
-  - @ -- Gives you access to the parent scopes objects. But if you make a change inside the directive that will not be reflected outside of the directive’s scope.
+  - Gives you access to the parent scope properties (string). If you make a change inside the directive that change will not be reflected outside of the directive’s scope.
  
  ##### Local Scope Property Hookup
 ![ScopeView Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/ScopeView.gif)
@@ -87,7 +86,7 @@ Custom Angular Directives Tutorial
 ##### Template
 ![Template Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Template.gif)
 
- - If you are using an isolate scope then you need to remember that any variables, objects or functions you use must come from either the scope directive property or from the directives controller.
+ - If you are using an isolate scope then you need to remember that any variables, objects or functions you use must come from either the scope directive property or from the directive's own controller.
  
 ##### Controller:
 
@@ -100,7 +99,7 @@ Custom Angular Directives Tutorial
  - This is where you would define any variables that you would need internally for your directive. 
  
 ##### Restrict: 
- - Restrict is what it sounds like it restricts your directive to being used in the way you design it. The default and most common was to use directives are either as attributes or elements.  You can also create directives that are comments or classes but they are almost never used. 
+ - Restrict is what it sounds like it restricts your directive to being used in the way you design it. The default and most common way to use directives are either as attributes or elements.  You can also create directives that are comments or classes but they are almost never used. 
 
 ##### Restrict
 ![Project Screenshot](https://raw.github.com/squireaj/PRankings/master/readmeImg/Restrict.gif)
@@ -109,7 +108,7 @@ Custom Angular Directives Tutorial
 
  - Directives can range from simple to very complex but their general purpose is the same. Create something once so you can use it over and over again. 
  - Directives are made of the same basic parts, a directive definition object or DDO, Controller, and Template. 
- - You now have the basic building blocks to start making your own directives. 
+ - You now have the basic building blocks to start making your own directives, have fun!. 
 
 
 
