@@ -66,7 +66,7 @@ Custom Angular Directives Tutorial
 
 ## " & "  
 
-  - Is used to pass functions to your custom directive. You are able to call the parent controller's function inside the directive when it is assigned the '&' scope property. 
+  - Is used to pass expressions to your directive. The most common use for this property is to pass functins. You are able to call the parent controller's function inside the directive when it is assigned the '&' scope property. 
 
 ## " @ " 
 
